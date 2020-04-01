@@ -1,0 +1,693 @@
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Body>
+        <genericResponse xmlns="http://ws.globalbay.com/pos/">
+            <sessionInfo>
+                <ns1:sessionId xmlns:ns1="http://ws.globalbay.com/pos/types/">
+                    1DfzxlVSHoStth1v1N8MzB4YKkwrjbnt__generic50
+                </ns1:sessionId>
+                <ns2:sessionState xmlns:ns2="http://ws.globalbay.com/pos/types/">OPEN</ns2:sessionState>
+                <ns3:sessionStatus xmlns:ns3="http://ws.globalbay.com/pos/types/">
+                    <ns3:lastOperation>ASSIGN CUSTOMER</ns3:lastOperation>
+                    <ns3:timeLastOperation>2020-02-28T20:55:38.000Z</ns3:timeLastOperation>
+                    <ns3:responseStatus>SUCCESS</ns3:responseStatus>
+                </ns3:sessionStatus>
+                <ns4:storeNum xmlns:ns4="http://ws.globalbay.com/pos/types/">741003</ns4:storeNum>
+                <ns5:terminalNum xmlns:ns5="http://ws.globalbay.com/pos/types/">51</ns5:terminalNum>
+                <ns6:nextPage xmlns:ns6="http://ws.globalbay.com/pos/types/">SALES</ns6:nextPage>
+                <ns7:userId xmlns:ns7="http://ws.globalbay.com/pos/types/">0</ns7:userId>
+                <ns8:employeeName xmlns:ns8="http://ws.globalbay.com/pos/types/">Wade Russell</ns8:employeeName>
+                <ns9:securityRole xmlns:ns9="http://ws.globalbay.com/pos/types/">60-MPOS</ns9:securityRole>
+                <ns10:autoLockTime xmlns:ns10="http://ws.globalbay.com/pos/types/">9000000</ns10:autoLockTime>
+                <ns11:trainingMode xmlns:ns11="http://ws.globalbay.com/pos/types/">false</ns11:trainingMode>
+                <ns12:transactionInfo xmlns:ns12="http://ws.globalbay.com/pos/types/">
+                    <ns12:transactionId>1337</ns12:transactionId>
+                    <ns12:transactionType>sales</ns12:transactionType>
+                    <ns12:lineItemList>
+                        <ns12:item>
+                            <ns12:itemRowId>7084</ns12:itemRowId>
+                            <ns12:itemCode>0000000002</ns12:itemCode>
+                            <ns12:itemTaxCode>5497</ns12:itemTaxCode>
+                            <ns12:description>FLORAL BINDING CANVAS FLAT BOW Test12345</ns12:description>
+                            <ns12:quantity>1</ns12:quantity>
+                            <ns12:originalPrice>10000</ns12:originalPrice>
+                            <ns12:salePrice>10000</ns12:salePrice>
+                            <ns12:saleTax>886</ns12:saleTax>
+                            <ns12:isGiftItem>false</ns12:isGiftItem>
+                            <ns12:isPriceChanged>false</ns12:isPriceChanged>
+                            <ns12:isNMC>false</ns12:isNMC>
+                            <ns12:imageURL>
+                                https://vignette.wikia.nocookie.net/harrypotter/images/c/cc/57297_glg.jpg/revision/latest?cb=20110528035214
+                            </ns12:imageURL>
+                            <ns12:style>venitem_002_12345678</ns12:style>
+                            <ns12:color>NON COLOR</ns12:color>
+                            <ns12:size>01234567</ns12:size>
+                            <ns12:detailDescription>FLORAL BINDING</ns12:detailDescription>
+                            <ns12:itemType>sales</ns12:itemType>
+                            <ns12:transactionGroupID>5497</ns12:transactionGroupID>
+                            <ns12:ipadSalesLabels xsi:type="ns12:TextInputField">
+                                <ns12:id>article</ns12:id>
+                                <ns12:label>UPC</ns12:label>
+                                <ns12:isEditable>false</ns12:isEditable>
+                                <ns12:isRequired>false</ns12:isRequired>
+                                <ns12:isDesired>false</ns12:isDesired>
+                                <ns12:isHidden>true</ns12:isHidden>
+                                <ns12:defaultText>0000000002</ns12:defaultText>
+                                <ns12:maxlength>20</ns12:maxlength>
+                                <ns12:isDefaultScannableField>false</ns12:isDefaultScannableField>
+                            </ns12:ipadSalesLabels>
+                            <ns12:ipadSalesLabels xsi:type="ns12:TextInputField">
+                                <ns12:id>descr</ns12:id>
+                                <ns12:label>Description</ns12:label>
+                                <ns12:isEditable>false</ns12:isEditable>
+                                <ns12:isRequired>false</ns12:isRequired>
+                                <ns12:isDesired>false</ns12:isDesired>
+                                <ns12:isHidden>false</ns12:isHidden>
+                                <ns12:defaultText>FLORAL BINDING CANVAS FLAT BOW Test12345</ns12:defaultText>
+                                <ns12:maxlength>20</ns12:maxlength>
+                                <ns12:isDefaultScannableField>false</ns12:isDefaultScannableField>
+                            </ns12:ipadSalesLabels>
+                            <ns12:ipadSalesLabels xsi:type="ns12:NumericInputField">
+                                <ns12:id>quantity</ns12:id>
+                                <ns12:label>QTY</ns12:label>
+                                <ns12:isEditable>false</ns12:isEditable>
+                                <ns12:isRequired>false</ns12:isRequired>
+                                <ns12:isDesired>false</ns12:isDesired>
+                                <ns12:isHidden>false</ns12:isHidden>
+                                <ns12:defaultNumber>1</ns12:defaultNumber>
+                                <ns12:maxlength>20</ns12:maxlength>
+                                <ns12:isDefaultScannableField>false</ns12:isDefaultScannableField>
+                            </ns12:ipadSalesLabels>
+                            <ns12:ipadSalesLabels xsi:type="ns12:DenominationInputField">
+                                <ns12:id>salesPrice</ns12:id>
+                                <ns12:label>Price</ns12:label>
+                                <ns12:isEditable>false</ns12:isEditable>
+                                <ns12:isRequired>false</ns12:isRequired>
+                                <ns12:isDesired>false</ns12:isDesired>
+                                <ns12:isHidden>false</ns12:isHidden>
+                                <ns12:defaultQty>0</ns12:defaultQty>
+                                <ns12:maxlength>20</ns12:maxlength>
+                                <ns12:denominationInCents>10000</ns12:denominationInCents>
+                            </ns12:ipadSalesLabels>
+                            <ns12:ipadSalesLabels xsi:type="ns12:TextInputField">
+                                <ns12:id>venitem</ns12:id>
+                                <ns12:label>Style</ns12:label>
+                                <ns12:isEditable>false</ns12:isEditable>
+                                <ns12:isRequired>false</ns12:isRequired>
+                                <ns12:isDesired>false</ns12:isDesired>
+                                <ns12:isHidden>false</ns12:isHidden>
+                                <ns12:defaultText>venitem_002_12345678</ns12:defaultText>
+                                <ns12:maxlength>20</ns12:maxlength>
+                                <ns12:isDefaultScannableField>false</ns12:isDefaultScannableField>
+                            </ns12:ipadSalesLabels>
+                            <ns12:ipadSalesLabels xsi:type="ns12:TextInputField">
+                                <ns12:id>size1</ns12:id>
+                                <ns12:label>Size</ns12:label>
+                                <ns12:isEditable>false</ns12:isEditable>
+                                <ns12:isRequired>false</ns12:isRequired>
+                                <ns12:isDesired>false</ns12:isDesired>
+                                <ns12:isHidden>true</ns12:isHidden>
+                                <ns12:defaultText>01234567</ns12:defaultText>
+                                <ns12:maxlength>20</ns12:maxlength>
+                                <ns12:isDefaultScannableField>false</ns12:isDefaultScannableField>
+                            </ns12:ipadSalesLabels>
+                            <ns12:ipadSalesLabels xsi:type="ns12:TextInputField">
+                                <ns12:id>colr</ns12:id>
+                                <ns12:label>Color</ns12:label>
+                                <ns12:isEditable>false</ns12:isEditable>
+                                <ns12:isRequired>false</ns12:isRequired>
+                                <ns12:isDesired>false</ns12:isDesired>
+                                <ns12:isHidden>false</ns12:isHidden>
+                                <ns12:defaultText>PINK</ns12:defaultText>
+                                <ns12:maxlength>20</ns12:maxlength>
+                                <ns12:isDefaultScannableField>false</ns12:isDefaultScannableField>
+                            </ns12:ipadSalesLabels>
+                            <ns12:handsetSalesLabels xsi:type="ns12:TextInputField">
+                                <ns12:id>article</ns12:id>
+                                <ns12:label>UPC</ns12:label>
+                                <ns12:isEditable>false</ns12:isEditable>
+                                <ns12:isRequired>false</ns12:isRequired>
+                                <ns12:isDesired>false</ns12:isDesired>
+                                <ns12:isHidden>false</ns12:isHidden>
+                                <ns12:defaultText>0000000002</ns12:defaultText>
+                                <ns12:maxlength>20</ns12:maxlength>
+                                <ns12:isDefaultScannableField>false</ns12:isDefaultScannableField>
+                            </ns12:handsetSalesLabels>
+                            <ns12:handsetSalesLabels xsi:type="ns12:TextInputField">
+                                <ns12:id>venitem</ns12:id>
+                                <ns12:label>Style</ns12:label>
+                                <ns12:isEditable>false</ns12:isEditable>
+                                <ns12:isRequired>true</ns12:isRequired>
+                                <ns12:isDesired>false</ns12:isDesired>
+                                <ns12:isHidden>false</ns12:isHidden>
+                                <ns12:defaultText>venitem_002_12345678</ns12:defaultText>
+                                <ns12:maxlength>20</ns12:maxlength>
+                                <ns12:isDefaultScannableField>false</ns12:isDefaultScannableField>
+                            </ns12:handsetSalesLabels>
+                            <ns12:handsetSalesLabels xsi:type="ns12:TextInputField">
+                                <ns12:id>descr</ns12:id>
+                                <ns12:label>Description</ns12:label>
+                                <ns12:isEditable>false</ns12:isEditable>
+                                <ns12:isRequired>false</ns12:isRequired>
+                                <ns12:isDesired>false</ns12:isDesired>
+                                <ns12:isHidden>false</ns12:isHidden>
+                                <ns12:defaultText>FLORAL BINDING CANVAS FLAT BOW Test12345</ns12:defaultText>
+                                <ns12:maxlength>20</ns12:maxlength>
+                                <ns12:isDefaultScannableField>false</ns12:isDefaultScannableField>
+                            </ns12:handsetSalesLabels>
+                            <ns12:handsetSalesLabels xsi:type="ns12:TextInputField">
+                                <ns12:id>color_c</ns12:id>
+                                <ns12:label>Color</ns12:label>
+                                <ns12:isEditable>false</ns12:isEditable>
+                                <ns12:isRequired>true</ns12:isRequired>
+                               <ns12:isDesired>false</ns12:isDesired>
+                                <ns12:isHidden>false</ns12:isHidden>
+                                <ns12:defaultText>000</ns12:defaultText>
+                                <ns12:maxlength>10</ns12:maxlength>
+                                <ns12:isDefaultScannableField>false</ns12:isDefaultScannableField>
+                            </ns12:handsetSalesLabels>
+                            <ns12:handsetSalesLabels xsi:type="ns12:TextInputField">
+                                <ns12:id>size1</ns12:id>
+                                <ns12:label>Size</ns12:label>
+                                <ns12:isEditable>false</ns12:isEditable>
+                                <ns12:isRequired>true</ns12:isRequired>
+                                <ns12:isDesired>false</ns12:isDesired>
+                                <ns12:isHidden>false</ns12:isHidden>
+                                <ns12:defaultText>01234567</ns12:defaultText>
+                                <ns12:maxlength>10</ns12:maxlength>
+                                <ns12:isDefaultScannableField>false</ns12:isDefaultScannableField>
+                            </ns12:handsetSalesLabels>
+                            <ns12:handsetSalesLabels xsi:type="ns12:NumericInputField">
+                                <ns12:id>quantity</ns12:id>
+                                <ns12:label>Quantity -5</ns12:label>
+                                <ns12:isEditable>false</ns12:isEditable>
+                                <ns12:isRequired>false</ns12:isRequired>
+                                <ns12:isDesired>false</ns12:isDesired>
+                                <ns12:isHidden>false</ns12:isHidden>
+                                <ns12:defaultNumber>1</ns12:defaultNumber>
+                                <ns12:maxlength>20</ns12:maxlength>
+                                <ns12:isDefaultScannableField>false</ns12:isDefaultScannableField>
+                            </ns12:handsetSalesLabels>
+                            <ns12:handsetSalesLabels xsi:type="ns12:DenominationInputField">
+                                <ns12:id>salesPrice</ns12:id>
+                                <ns12:label>Price</ns12:label>
+                                <ns12:isEditable>false</ns12:isEditable>
+                                <ns12:isRequired>false</ns12:isRequired>
+                                <ns12:isDesired>false</ns12:isDesired>
+                                <ns12:isHidden>false</ns12:isHidden>
+                                <ns12:defaultQty>0</ns12:defaultQty>
+                                <ns12:maxlength>20</ns12:maxlength>
+                                <ns12:denominationInCents>10000</ns12:denominationInCents>
+                            </ns12:handsetSalesLabels>
+                            <ns12:handsetSalesLabels xsi:type="ns12:TextInputField">
+                                <ns12:id>size1</ns12:id>
+                                <ns12:label>Size</ns12:label>
+                                <ns12:isEditable>false</ns12:isEditable>
+                                <ns12:isRequired>true</ns12:isRequired>
+                                <ns12:isDesired>false</ns12:isDesired>
+                                <ns12:isHidden>false</ns12:isHidden>
+                                <ns12:defaultText>01234567</ns12:defaultText>
+                                <ns12:maxlength>20</ns12:maxlength>
+                                <ns12:isDefaultScannableField>false</ns12:isDefaultScannableField>
+                            </ns12:handsetSalesLabels>
+                            <ns12:isShippingMethod>false</ns12:isShippingMethod>
+                            <ns12:isGiftCard>false</ns12:isGiftCard>
+                            <ns12:isBulk>false</ns12:isBulk>
+                            <ns12:itemWeight>1.00</ns12:itemWeight>
+                            <ns12:itemWeightAdded>false</ns12:itemWeightAdded>
+                            <ns12:IsLoyaltyCoupon>false</ns12:IsLoyaltyCoupon>
+                            <ns12:serialNumber></ns12:serialNumber>
+                            <ns12:isSingleUseCoupon>false</ns12:isSingleUseCoupon>
+                            <ns12:isTheCouponApplied>false</ns12:isTheCouponApplied>
+                            <ns12:isActualCoupon>false</ns12:isActualCoupon>
+                            <ns12:itemComments></ns12:itemComments>
+                        </ns12:item>
+                    </ns12:lineItemList>
+                    <ns12:transactionTotals>
+                        <ns12:subtotal>10000</ns12:subtotal>
+                        <ns12:tax>886</ns12:tax>
+                        <ns12:total>10886</ns12:total>
+                        <ns12:totalSavings>0</ns12:totalSavings>
+                        <ns12:nmc>0</ns12:nmc>
+                        <ns12:isPriceChanged>false</ns12:isPriceChanged>
+                        <ns12:totalReturnUnits>0</ns12:totalReturnUnits>
+                        <ns12:totalSalesUnits>1</ns12:totalSalesUnits>
+                        <ns12:totalUnits>1</ns12:totalUnits>
+                        <ns12:totalAmtToBePaidNow>10886</ns12:totalAmtToBePaidNow>
+                        <ns12:nonSpecialOrderSubtotal>10000</ns12:nonSpecialOrderSubtotal>
+                        <ns12:nonSpecialOrderTax>886</ns12:nonSpecialOrderTax>
+                        <ns12:nonSpecialOrderTotal>10886</ns12:nonSpecialOrderTotal>
+                        <ns12:roundingRule>0.0</ns12:roundingRule>
+                    </ns12:transactionTotals>
+                    <ns12:customer>
+                        <ns12:customerNumber>1003001533</ns12:customerNumber>
+                        <ns12:firstName>DIANA</ns12:firstName>
+                        <ns12:lastName>PRINCE</ns12:lastName>
+                        <ns12:email></ns12:email>
+                        <ns12:phone></ns12:phone>
+                        <ns12:address1>HALL OF JUSTICE</ns12:address1>
+                        <ns12:address2></ns12:address2>
+                        <ns12:city>WASHINGTON</ns12:city>
+                        <ns12:state>DC</ns12:state>
+                        <ns12:postcode>43424</ns12:postcode>
+                        <ns12:isEmailValid>true</ns12:isEmailValid>
+                        <ns12:isAddressValid>true</ns12:isAddressValid>
+                        <ns12:attributes>
+                            <ns12:customerInfoElement xsi:type="ns12:TextInputField">
+                                <ns12:id>num_cp</ns12:id>
+                                <ns12:label>Customer #</ns12:label>
+                                <ns12:isEditable>false</ns12:isEditable>
+                                <ns12:isRequired>false</ns12:isRequired>
+                                <ns12:isDesired>false</ns12:isDesired>
+                                <ns12:isHidden>false</ns12:isHidden>
+                                <ns12:defaultText>1003001533</ns12:defaultText>
+                                <ns12:maxlength>40</ns12:maxlength>
+                                <ns12:isDefaultScannableField>false</ns12:isDefaultScannableField>
+                            </ns12:customerInfoElement>
+                            <ns12:customerInfoElement xsi:type="ns12:TextInputField">
+                                <ns12:id>acct_cp</ns12:id>
+                                <ns12:label>Club ID</ns12:label>
+                                <ns12:isEditable>false</ns12:isEditable>
+                                <ns12:isRequired>false</ns12:isRequired>
+                                <ns12:isDesired>false</ns12:isDesired>
+                                <ns12:isHidden>false</ns12:isHidden>
+                                <ns12:maxlength>40</ns12:maxlength>
+                                <ns12:isDefaultScannableField>false</ns12:isDefaultScannableField>
+                            </ns12:customerInfoElement>
+                            <ns12:customerInfoElement xsi:type="ns12:TextInputField">
+                                <ns12:id>ln_cp</ns12:id>
+                                <ns12:label>Last Name</ns12:label>
+                                <ns12:isEditable>true</ns12:isEditable>
+                                <ns12:isRequired>false</ns12:isRequired>
+                                <ns12:isDesired>false</ns12:isDesired>
+                                <ns12:isHidden>false</ns12:isHidden>
+                                <ns12:defaultText>PRINCE</ns12:defaultText>
+                                <ns12:maxlength>30</ns12:maxlength>
+                                <ns12:isDefaultScannableField>false</ns12:isDefaultScannableField>
+                            </ns12:customerInfoElement>
+                            <ns12:customerInfoElement xsi:type="ns12:TextInputField">
+                                <ns12:id>fn_cp</ns12:id>
+                                <ns12:label>First Name</ns12:label>
+                                <ns12:isEditable>true</ns12:isEditable>
+                                <ns12:isRequired>false</ns12:isRequired>
+                                <ns12:isDesired>false</ns12:isDesired>
+                                <ns12:isHidden>false</ns12:isHidden>
+                                <ns12:defaultText>DIANA</ns12:defaultText>
+                                <ns12:maxlength>20</ns12:maxlength>
+                                <ns12:isDefaultScannableField>false</ns12:isDefaultScannableField>
+                            </ns12:customerInfoElement>
+                            <ns12:customerInfoElement xsi:type="ns12:TextInputField">
+                                <ns12:id>email_cp</ns12:id>
+                                <ns12:label>Email</ns12:label>
+                                <ns12:isEditable>true</ns12:isEditable>
+                                <ns12:isRequired>false</ns12:isRequired>
+                                <ns12:isDesired>true</ns12:isDesired>
+                                <ns12:isHidden>false</ns12:isHidden>
+                                <ns12:maxlength>254</ns12:maxlength>
+                                <ns12:isDefaultScannableField>false</ns12:isDefaultScannableField>
+                            </ns12:customerInfoElement>
+                            <ns12:customerInfoElement xsi:type="ns12:TextInputField">
+                                <ns12:id>tel1_cp</ns12:id>
+                                <ns12:label>Phone</ns12:label>
+                                <ns12:isEditable>true</ns12:isEditable>
+                                <ns12:isRequired>false</ns12:isRequired>
+                                <ns12:isDesired>false</ns12:isDesired>
+                                <ns12:isHidden>false</ns12:isHidden>
+                                <ns12:maxlength>40</ns12:maxlength>
+                                <ns12:isDefaultScannableField>false</ns12:isDefaultScannableField>
+                            </ns12:customerInfoElement>
+                            <ns12:customerInfoElement xsi:type="ns12:SelectionInputField">
+                                <ns12:id>opt_cp</ns12:id>
+                                <ns12:label>Email Opt In</ns12:label>
+                                <ns12:isEditable>true</ns12:isEditable>
+                                <ns12:isRequired>false</ns12:isRequired>
+                                <ns12:isDesired>false</ns12:isDesired>
+                                <ns12:isHidden>false</ns12:isHidden>
+                                <ns12:items>
+                                    <ns12:id>Y</ns12:id>
+                                    <ns12:description>Yes</ns12:description>
+                                </ns12:items>
+                                <ns12:items>
+                                    <ns12:id>N</ns12:id>
+                                    <ns12:description>No</ns12:description>
+                                </ns12:items>
+                                <ns12:required>false</ns12:required>
+                                <ns12:multipleSelect>false</ns12:multipleSelect>
+                                <ns12:isPopoverSelectionList>false</ns12:isPopoverSelectionList>
+                                <ns12:isEditableSelectionList>false</ns12:isEditableSelectionList>
+                            </ns12:customerInfoElement>
+                            <ns12:customerInfoElement xsi:type="ns12:TextInputField">
+                                <ns12:id>add_cp</ns12:id>
+                                <ns12:label>Address1</ns12:label>
+                                <ns12:isEditable>true</ns12:isEditable>
+                                <ns12:isRequired>false</ns12:isRequired>
+                                <ns12:isDesired>false</ns12:isDesired>
+                                <ns12:isHidden>false</ns12:isHidden>
+                                <ns12:defaultText>HALL OF JUSTICE</ns12:defaultText>
+                                <ns12:maxlength>40</ns12:maxlength>
+                                <ns12:isDefaultScannableField>false</ns12:isDefaultScannableField>
+                            </ns12:customerInfoElement>
+                            <ns12:customerInfoElement xsi:type="ns12:SelectionInputField">
+                                <ns12:id>p13_cp</ns12:id>
+                                <ns12:label>Club Opt In</ns12:label>
+                                <ns12:isEditable>true</ns12:isEditable>
+                                <ns12:isRequired>false</ns12:isRequired>
+                                <ns12:isDesired>false</ns12:isDesired>
+                                <ns12:isHidden>false</ns12:isHidden>
+                                <ns12:items>
+                                    <ns12:id>Y</ns12:id>
+                                    <ns12:description>Yes</ns12:description>
+                                </ns12:items>
+                                <ns12:items>
+                                    <ns12:id>N</ns12:id>
+                                    <ns12:description>No</ns12:description>
+                                </ns12:items>
+                                <ns12:required>false</ns12:required>
+                                <ns12:multipleSelect>false</ns12:multipleSelect>
+                                <ns12:isPopoverSelectionList>true</ns12:isPopoverSelectionList>
+                                <ns12:isEditableSelectionList>false</ns12:isEditableSelectionList>
+                            </ns12:customerInfoElement>
+                            <ns12:customerInfoElement xsi:type="ns12:TextInputField">
+                                <ns12:id>add1_cp</ns12:id>
+                                <ns12:label>Address2</ns12:label>
+                                <ns12:isEditable>true</ns12:isEditable>
+                                <ns12:isRequired>false</ns12:isRequired>
+                                <ns12:isDesired>false</ns12:isDesired>
+                                <ns12:isHidden>false</ns12:isHidden>
+                                <ns12:maxlength>40</ns12:maxlength>
+                                <ns12:isDefaultScannableField>false</ns12:isDefaultScannableField>
+                            </ns12:customerInfoElement>
+                            <ns12:customerInfoElement xsi:type="ns12:DateInputField">
+                                <ns12:id>birth_cp</ns12:id>
+                                <ns12:label>Birthday</ns12:label>
+                                <ns12:isEditable>true</ns12:isEditable>
+                                <ns12:isRequired>false</ns12:isRequired>
+                                <ns12:isDesired>false</ns12:isDesired>
+                                <ns12:isHidden>false</ns12:isHidden>
+                                <ns12:defaultDate>1985-10-20T04:00:00.000Z</ns12:defaultDate>
+                            </ns12:customerInfoElement>
+                            <ns12:customerInfoElement xsi:type="ns12:TextInputField">
+                                <ns12:id>ct_cp</ns12:id>
+                                <ns12:label>City</ns12:label>
+                                <ns12:isEditable>true</ns12:isEditable>
+                                <ns12:isRequired>false</ns12:isRequired>
+                                <ns12:isDesired>false</ns12:isDesired>
+                                <ns12:isHidden>false</ns12:isHidden>
+                                <ns12:defaultText>WASHINGTON</ns12:defaultText>
+                                <ns12:maxlength>40</ns12:maxlength>
+                                <ns12:isDefaultScannableField>false</ns12:isDefaultScannableField>
+                            </ns12:customerInfoElement>
+                            <ns12:customerInfoElement xsi:type="ns12:SelectionInputField">
+                                <ns12:id>addopt_cp</ns12:id>
+                                <ns12:label>Address Opt In</ns12:label>
+                                <ns12:isEditable>true</ns12:isEditable>
+                                <ns12:isRequired>false</ns12:isRequired>
+                                <ns12:isDesired>false</ns12:isDesired>
+                                <ns12:isHidden>true</ns12:isHidden>
+                                <ns12:items>
+                                    <ns12:id>Y</ns12:id>
+                                    <ns12:description>Yes</ns12:description>
+                                </ns12:items>
+                                <ns12:items>
+                                    <ns12:id>N</ns12:id>
+                                    <ns12:description>No</ns12:description>
+                                </ns12:items>
+                                <ns12:required>false</ns12:required>
+                                <ns12:multipleSelect>false</ns12:multipleSelect>
+                                <ns12:isPopoverSelectionList>false</ns12:isPopoverSelectionList>
+                                <ns12:isEditableSelectionList>false</ns12:isEditableSelectionList>
+                            </ns12:customerInfoElement>
+                            <ns12:customerInfoElement xsi:type="ns12:SelectionInputField">
+                                <ns12:id>cn_cp</ns12:id>
+                                <ns12:label>Country Code</ns12:label>
+                                <ns12:isEditable>true</ns12:isEditable>
+                                <ns12:isRequired>false</ns12:isRequired>
+                                <ns12:isDesired>false</ns12:isDesired>
+                                <ns12:isHidden>false</ns12:isHidden>
+                                <ns12:items>
+                                    <ns12:id>CAN</ns12:id>
+                                    <ns12:description>Canada</ns12:description>
+                                </ns12:items>
+                                <ns12:items>
+                                    <ns12:id>USA</ns12:id>
+                                    <ns12:description>United States</ns12:description>
+                                </ns12:items>
+                                <ns12:required>false</ns12:required>
+                                <ns12:multipleSelect>false</ns12:multipleSelect>
+                                <ns12:isPopoverSelectionList>false</ns12:isPopoverSelectionList>
+                                <ns12:isEditableSelectionList>false</ns12:isEditableSelectionList>
+                            </ns12:customerInfoElement>
+                            <ns12:customerInfoElement xsi:type="ns12:SelectionInputField">
+                                <ns12:id>telopt_cp</ns12:id>
+                                <ns12:label>Phone Opt In</ns12:label>
+                                <ns12:isEditable>true</ns12:isEditable>
+                                <ns12:isRequired>false</ns12:isRequired>
+                                <ns12:isDesired>false</ns12:isDesired>
+                                <ns12:isHidden>true</ns12:isHidden>
+                                <ns12:items>
+                                    <ns12:id>Y</ns12:id>
+                                    <ns12:description>Yes</ns12:description>
+                                </ns12:items>
+                                <ns12:items>
+                                    <ns12:id>N</ns12:id>
+                                    <ns12:description>No</ns12:description>
+                                </ns12:items>
+                                <ns12:required>false</ns12:required>
+                                <ns12:multipleSelect>false</ns12:multipleSelect>
+                                <ns12:isPopoverSelectionList>false</ns12:isPopoverSelectionList>
+                                <ns12:isEditableSelectionList>false</ns12:isEditableSelectionList>
+                            </ns12:customerInfoElement>
+                            <ns12:customerInfoElement xsi:type="ns12:TextInputField">
+                                <ns12:id>st_cp</ns12:id>
+                                <ns12:label>State</ns12:label>
+                                <ns12:isEditable>true</ns12:isEditable>
+                                <ns12:isRequired>false</ns12:isRequired>
+                                <ns12:isDesired>false</ns12:isDesired>
+                                <ns12:isHidden>false</ns12:isHidden>
+                                <ns12:defaultText>DC</ns12:defaultText>
+                                <ns12:maxlength>40</ns12:maxlength>
+                                <ns12:isDefaultScannableField>false</ns12:isDefaultScannableField>
+                            </ns12:customerInfoElement>
+                            <ns12:customerInfoElement xsi:type="ns12:SelectionInputField">
+                                <ns12:id>p08_cp</ns12:id>
+                                <ns12:label>Preferred Language</ns12:label>
+                                <ns12:isEditable>true</ns12:isEditable>
+                                <ns12:isRequired>false</ns12:isRequired>
+                                <ns12:isDesired>false</ns12:isDesired>
+                                <ns12:isHidden>false</ns12:isHidden>
+                                <ns12:items>
+                                    <ns12:id>EN</ns12:id>
+                                    <ns12:description>English</ns12:description>
+                                </ns12:items>
+                                <ns12:items>
+                                    <ns12:id>FR</ns12:id>
+                                    <ns12:description>French</ns12:description>
+                                </ns12:items>
+                                <ns12:defaultSelectedItem>
+                                    <ns12:id>EN</ns12:id>
+                                    <ns12:description>English</ns12:description>
+                                </ns12:defaultSelectedItem>
+                                <ns12:required>false</ns12:required>
+                                <ns12:multipleSelect>false</ns12:multipleSelect>
+                                <ns12:isPopoverSelectionList>true</ns12:isPopoverSelectionList>
+                                <ns12:isEditableSelectionList>false</ns12:isEditableSelectionList>
+                            </ns12:customerInfoElement>
+                            <ns12:customerInfoElement xsi:type="ns12:TextInputField">
+                                <ns12:id>zip_cp</ns12:id>
+                                <ns12:label>Zip Code</ns12:label>
+                                <ns12:isEditable>true</ns12:isEditable>
+                                <ns12:isRequired>false</ns12:isRequired>
+                                <ns12:isDesired>false</ns12:isDesired>
+                                <ns12:isHidden>false</ns12:isHidden>
+                                <ns12:defaultText>43424</ns12:defaultText>
+                                <ns12:maxlength>20</ns12:maxlength>
+                                <ns12:isDefaultScannableField>false</ns12:isDefaultScannableField>
+                            </ns12:customerInfoElement>
+                            <ns12:customerInfoElement xsi:type="ns12:SelectionInputField">
+                                <ns12:id>sex_cp</ns12:id>
+                                <ns12:label>Gender</ns12:label>
+                                <ns12:isEditable>true</ns12:isEditable>
+                                <ns12:isRequired>false</ns12:isRequired>
+                                <ns12:isDesired>false</ns12:isDesired>
+                                <ns12:isHidden>false</ns12:isHidden>
+                                <ns12:items>
+                                    <ns12:id>U</ns12:id>
+                                    <ns12:description>Unspecified</ns12:description>
+                                </ns12:items>
+                                <ns12:items>
+                                    <ns12:id>M</ns12:id>
+                                    <ns12:description>Male</ns12:description>
+                                </ns12:items>
+                                <ns12:items>
+                                    <ns12:id>F</ns12:id>
+                                    <ns12:description>Female</ns12:description>
+                                </ns12:items>
+                                <ns12:defaultSelectedItem>
+                                    <ns12:id>U</ns12:id>
+                                    <ns12:description>Unspecified</ns12:description>
+                                </ns12:defaultSelectedItem>
+                                <ns12:required>false</ns12:required>
+                                <ns12:multipleSelect>false</ns12:multipleSelect>
+                                <ns12:isPopoverSelectionList>true</ns12:isPopoverSelectionList>
+                                <ns12:isEditableSelectionList>false</ns12:isEditableSelectionList>
+                            </ns12:customerInfoElement>
+                        </ns12:attributes>
+                        <ns12:view_attributes xsi:type="ns12:TextInputField">
+                            <ns12:id>num_cp</ns12:id>
+                            <ns12:label>Customer #</ns12:label>
+                            <ns12:isEditable>false</ns12:isEditable>
+                            <ns12:isRequired>false</ns12:isRequired>
+                            <ns12:isDesired>false</ns12:isDesired>
+                            <ns12:isHidden>true</ns12:isHidden>
+                            <ns12:defaultText>1003001533</ns12:defaultText>
+                            <ns12:maxlength>254</ns12:maxlength>
+                            <ns12:isDefaultScannableField>false</ns12:isDefaultScannableField>
+                        </ns12:view_attributes>
+                        <ns12:view_attributes xsi:type="ns12:TextInputField">
+                            <ns12:id>ln_cp</ns12:id>
+                            <ns12:label>Last Name</ns12:label>
+                            <ns12:isEditable>true</ns12:isEditable>
+                            <ns12:isRequired>true</ns12:isRequired>
+                            <ns12:isDesired>false</ns12:isDesired>
+                            <ns12:isHidden>false</ns12:isHidden>
+                            <ns12:defaultText>PRINCE</ns12:defaultText>
+                            <ns12:maxlength>30</ns12:maxlength>
+                            <ns12:isDefaultScannableField>false</ns12:isDefaultScannableField>
+                        </ns12:view_attributes>
+                        <ns12:view_attributes xsi:type="ns12:TextInputField">
+                            <ns12:id>fn_cp</ns12:id>
+                            <ns12:label>First Name</ns12:label>
+                            <ns12:isEditable>true</ns12:isEditable>
+                            <ns12:isRequired>true</ns12:isRequired>
+                            <ns12:isDesired>false</ns12:isDesired>
+                            <ns12:isHidden>false</ns12:isHidden>
+                            <ns12:defaultText>DIANA</ns12:defaultText>
+                            <ns12:maxlength>20</ns12:maxlength>
+                            <ns12:isDefaultScannableField>false</ns12:isDefaultScannableField>
+                        </ns12:view_attributes>
+                        <ns12:view_attributes xsi:type="ns12:TextInputField">
+                            <ns12:id>email_cp</ns12:id>
+                            <ns12:label>Email</ns12:label>
+                            <ns12:isEditable>true</ns12:isEditable>
+                            <ns12:isRequired>false</ns12:isRequired>
+                            <ns12:isDesired>false</ns12:isDesired>
+                            <ns12:isHidden>false</ns12:isHidden>
+                            <ns12:maxlength>254</ns12:maxlength>
+                            <ns12:isDefaultScannableField>false</ns12:isDefaultScannableField>
+                        </ns12:view_attributes>
+                        <ns12:view_attributes xsi:type="ns12:SelectionInputField">
+                            <ns12:id>opt_cp</ns12:id>
+                            <ns12:label>Email Opt In</ns12:label>
+                            <ns12:isEditable>true</ns12:isEditable>
+                            <ns12:isRequired>false</ns12:isRequired>
+                            <ns12:isDesired>true</ns12:isDesired>
+                            <ns12:isHidden>false</ns12:isHidden>
+                            <ns12:items>
+                                <ns12:id>Y</ns12:id>
+                                <ns12:description>Yes</ns12:description>
+                            </ns12:items>
+                            <ns12:items>
+                                <ns12:id>N</ns12:id>
+                                <ns12:description>No</ns12:description>
+                            </ns12:items>
+                            <ns12:required>false</ns12:required>
+                            <ns12:multipleSelect>false</ns12:multipleSelect>
+                            <ns12:isPopoverSelectionList>false</ns12:isPopoverSelectionList>
+                            <ns12:isEditableSelectionList>false</ns12:isEditableSelectionList>
+                        </ns12:view_attributes>
+                        <ns12:view_attributes xsi:type="ns12:SelectionInputField">
+                            <ns12:id>cn_cp</ns12:id>
+                            <ns12:label>Country Code</ns12:label>
+                            <ns12:isEditable>true</ns12:isEditable>
+                            <ns12:isRequired>false</ns12:isRequired>
+                            <ns12:isDesired>false</ns12:isDesired>
+                            <ns12:isHidden>false</ns12:isHidden>
+                            <ns12:items>
+                                <ns12:id>CAN</ns12:id>
+                                <ns12:description>Canada</ns12:description>
+                            </ns12:items>
+                            <ns12:items>
+                                <ns12:id>USA</ns12:id>
+                                <ns12:description>United States</ns12:description>
+                            </ns12:items>
+                            <ns12:required>false</ns12:required>
+                            <ns12:multipleSelect>false</ns12:multipleSelect>
+                            <ns12:isPopoverSelectionList>false</ns12:isPopoverSelectionList>
+                            <ns12:isEditableSelectionList>false</ns12:isEditableSelectionList>
+                        </ns12:view_attributes>
+                        <ns12:view_attributes xsi:type="ns12:SelectionInputField">
+                            <ns12:id>p08_cp</ns12:id>
+                            <ns12:label>Preferred Language</ns12:label>
+                            <ns12:isEditable>true</ns12:isEditable>
+                            <ns12:isRequired>false</ns12:isRequired>
+                            <ns12:isDesired>true</ns12:isDesired>
+                            <ns12:isHidden>false</ns12:isHidden>
+                            <ns12:items>
+                                <ns12:id>EN</ns12:id>
+                                <ns12:description>English</ns12:description>
+                            </ns12:items>
+                            <ns12:items>
+                                <ns12:id>FR</ns12:id>
+                                <ns12:description>French</ns12:description>
+                            </ns12:items>
+                            <ns12:defaultSelectedItem>
+                                <ns12:id>EN</ns12:id>
+                                <ns12:description>English</ns12:description>
+                            </ns12:defaultSelectedItem>
+                            <ns12:required>false</ns12:required>
+                            <ns12:multipleSelect>false</ns12:multipleSelect>
+                            <ns12:isPopoverSelectionList>true</ns12:isPopoverSelectionList>
+                            <ns12:isEditableSelectionList>false</ns12:isEditableSelectionList>
+                        </ns12:view_attributes>
+                        <ns12:shippingInfo>
+                            <ns12:id>881</ns12:id>
+                            <ns12:firstName>DIANA</ns12:firstName>
+                            <ns12:middleName></ns12:middleName>
+                            <ns12:lastName>PRINCE</ns12:lastName>
+                            <ns12:address1>HALL OF JUSTICE</ns12:address1>
+                            <ns12:address2></ns12:address2>
+                            <ns12:address3></ns12:address3>
+                            <ns12:city>WASHINGTON</ns12:city>
+                            <ns12:state>DC</ns12:state>
+                            <ns12:postcode>43424</ns12:postcode>
+                            <ns12:phone1></ns12:phone1>
+                            <ns12:phone2></ns12:phone2>
+                            <ns12:email></ns12:email>
+                            <ns12:comments></ns12:comments>
+                            <ns12:activeCode>Y</ns12:activeCode>
+                        </ns12:shippingInfo>
+                        <ns12:triggers>
+                            <ns12:actionMessage>Because you are a loyal BFF we would like to tell you about&#x2026;
+                            </ns12:actionMessage>
+                        </ns12:triggers>
+                        <ns12:triggers>
+                            <ns12:actionMessage>DIANA is in loyalty tier</ns12:actionMessage>
+                        </ns12:triggers>
+                        <ns12:triggers>
+                            <ns12:actionMessage>Customer has been pre-approved by Alliance</ns12:actionMessage>
+                        </ns12:triggers>
+                        <ns12:prescreenId>123456789012</ns12:prescreenId>
+                    </ns12:customer>
+                    <ns12:totalReturns>0</ns12:totalReturns>
+                    <ns12:isShiipingAddressSet>false</ns12:isShiipingAddressSet>
+                    <ns12:isShippingMethodSet>false</ns12:isShippingMethodSet>
+                    <ns12:transactionAttributes>
+                        <ns12:transactionGroupID>5497</ns12:transactionGroupID>
+                        <ns12:transactionType>sales</ns12:transactionType>
+                        <ns12:tranTotalAmtToBePaidNow>10886</ns12:tranTotalAmtToBePaidNow>
+                    </ns12:transactionAttributes>
+                </ns12:transactionInfo>
+                <ns13:receiptList xmlns:ns13="http://ws.globalbay.com/pos/types/">
+                    <ns13:hasGiftItems>false</ns13:hasGiftItems>
+                </ns13:receiptList>
+                <ns14:custCapDisplay xmlns:ns14="http://ws.globalbay.com/pos/types/">O</ns14:custCapDisplay>
+                <ns15:collection xsi:nil="true" xmlns:ns15="http://ws.globalbay.com/pos/types/"/>
+                <ns16:reloadConfig xmlns:ns16="http://ws.globalbay.com/pos/types/">false</ns16:reloadConfig>
+                <ns17:offlineTransactionId xmlns:ns17="http://ws.globalbay.com/pos/types/">1337
+                </ns17:offlineTransactionId>
+                <ns18:wsEndTime xmlns:ns18="http://ws.globalbay.com/pos/types/">02/28/2020 03:55:38</ns18:wsEndTime>
+            </sessionInfo>
+        </genericResponse>
+    </soapenv:Body>
+</soapenv:Envelope>
